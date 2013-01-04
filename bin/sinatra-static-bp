@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'sinatra-static-bp'
+Boilerplate.create(ARGV)
