@@ -1,7 +1,7 @@
 # sinatra-static-bp
 
-> Boilerplate generator for simple static ruby applications.
-Easy deploy on Amazon S3 with complete assets management.
+> Boilerplate for simple static ruby applications.
+Amazon S3 deploy with complete assets management.
 
 ## Usage
 

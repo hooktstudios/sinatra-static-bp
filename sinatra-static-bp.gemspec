@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.executables << 'sinatra-static-bp'
   s.date        = '2013-01-03'
   s.summary     = 'sinatra-static-bp'
-  s.description = 'Boilerplate generator for static sinatra applications'
+  s.description = 'Boilerplate for simple static ruby applications. Amazon S3 deploy with complete assets management.'
   s.authors     = ['Jean-Philippe Doyle']
   s.email       = 'jeanphilippe.doyle@hooktstudios.com'
   s.files       = Dir[
