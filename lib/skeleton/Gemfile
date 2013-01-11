@@ -1,21 +1,21 @@
-source "https://rubygems.org"
-ruby "1.9.3"
+source 'https://rubygems.org'
+ruby '1.9.3'
 
-gem "sinatra", :require => 'sinatra/base'
-gem "sinatra-assetpack", 
+gem 'sinatra', :require => 'sinatra/base'
+gem 'sinatra-assetpack', 
   :git => 'git://github.com/hooktstudios/sinatra-assetpack.git',
-  :require => "sinatra/assetpack"
-gem "sinatra-advanced-routes",
-  :require => "sinatra/advanced_routes"
-gem "sinatra-static",
+  :require => 'sinatra/assetpack'
+gem 'sinatra-advanced-routes',
+  :require => 'sinatra/advanced_routes'
+gem 'sinatra-static',
   :git => 'git://github.com/hooktstudios/sinatra-static.git',
-  :require => "sinatra_static"
-gem "rake"
-gem "rack"
-gem "sass"
+  :require => 'sinatra_static'
+gem 'rake'
+gem 'rack'
+gem 'sass'
 
 group :deploy do
-  gem "capistrano"
-  gem "s3-static-site",
+  gem 'capistrano'
+  gem 's3-static-site',
     :git => 'git://github.com/hooktstudios/s3-static-site.git'
 end
