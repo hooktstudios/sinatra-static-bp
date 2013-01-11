@@ -32,9 +32,3 @@ class App < Sinatra::Base
     erb :index
   end
 end
-
-# Compile static if run from ruby app.rb
-if $0 == __FILE__
-  builder = SinatraStatic.new(App)
-  builder.build!('public/')
-end

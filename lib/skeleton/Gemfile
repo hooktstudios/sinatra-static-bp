@@ -7,9 +7,7 @@ gem 'sinatra-assetpack',
   :require => 'sinatra/assetpack'
 gem 'sinatra-advanced-routes',
   :require => 'sinatra/advanced_routes'
-gem 'sinatra-static',
-  :git => 'git://github.com/hooktstudios/sinatra-static.git',
-  :require => 'sinatra_static'
+gem 'sinatra-export'
 gem 'rake'
 gem 'rack'
 gem 'sass'
