@@ -8,7 +8,7 @@ Amazon S3 deploy with complete assets management.
     $ gem install sinatra-static-bp
     $ sinatra-static-bp simple-website
 
-See generated README.md in your new app folder for complete instructions.
+See boilerplate [README.md](https://github.com/hooktstudios/sinatra-static-bp/blob/master/lib/skeleton/README.md.erb) in your new app folder for complete instructions.
 
 ## Featuring
 
