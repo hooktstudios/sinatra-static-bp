@@ -1,4 +1,4 @@
-require 's3-static-site'
+require 'capistrano/s3'
 require 'capistrano/ext/multistage'
 
 set :default_stage, 'development'
