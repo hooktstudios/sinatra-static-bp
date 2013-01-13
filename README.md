@@ -15,4 +15,4 @@ See boilerplate [README.md](https://github.com/hooktstudios/sinatra-static-bp/bl
 * [sinatra](https://github.com/sinatra/sinatra) as the core
 * [sinatra-assetpack](https://github.com/hooktstudios/sinatra-assetpack) as the assets manager
 * [sinatra-export](https://github.com/hooktstudios/sinatra-export) as the static pages generator
-* [capistrano-s3](github.com/hooktstudios/capistrano-s3.git) as the S3 deployment tool
+* [capistrano-s3](http://github.com/hooktstudios/capistrano-s3.git) as the S3 deployment tool
