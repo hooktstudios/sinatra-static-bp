@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sinatra-static-bp'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.executables << 'sinatra-static-bp'
   s.date        = '2013-01-03'
   s.summary     = 'sinatra-static-bp'
