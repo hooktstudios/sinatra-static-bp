@@ -12,7 +12,7 @@ Very simple website for <%= project_name %>.
 
 To deploy (if you dare) configure the required s3 crendentials in `config/s3.yml`, then use capistrano.
 
-    cap [dev|www] deploy
+    cap [development|production] deploy
 
 http://dev.<%= project_name %>.com.s3-website-us-east-1.amazonaws.com
 http://www.<%= project_name %>.com.s3-website-us-east-1.amazonaws.com
