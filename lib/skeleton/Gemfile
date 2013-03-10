@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 
 gem 'sinatra', :require => 'sinatra/base'
+gem 'sinatra-contrib',
+  :require => 'sinatra/reloader'
 gem 'sinatra-assetpack'
 gem 'sinatra-advanced-routes'
 gem 'sinatra-export'

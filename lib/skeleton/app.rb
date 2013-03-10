@@ -8,6 +8,7 @@ class App < Sinatra::Base
   set :root, File.dirname(__FILE__)
   register Sinatra::AdvancedRoutes
   register Sinatra::AssetPack
+  register Sinatra::Reloader if development?
 
   assets {
     serve '/',      from: 'assets/public'
