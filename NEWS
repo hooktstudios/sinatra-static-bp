@@ -1,7 +1,21 @@
+News for 0.1.3
+
+* BUGFIX: first deploy logic for public folder
+* BUGFIX: stages name in README
+* Add Sinatra::Reloader in development
+* Include scaffoled assets & views folders
+* Update assets packages example
+* Signed gem
+
+News for 0.1.2
+
+* Update skeleton Gemfile, require not required
+* Use now update sinatra-assetpack
+
 News for 0.1.1
 
-*API CHANGE: Now using capistrano-s3 instead of s3-static-site. Update your Gemfiles.
+* API CHANGE: Now using capistrano-s3 instead of s3-static-site. Update your Gemfiles.
 
 News for 0.1.0
 
-*API CHANGE: Now using sinatra-export with cleaner rake task `rake sinatra:export` instead of `ruby app.rb`
+* API CHANGE: Now using sinatra-export with cleaner rake task `rake sinatra:export` instead of `ruby app.rb`
