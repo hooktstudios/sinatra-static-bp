@@ -6,7 +6,7 @@ Bundler.require
 
 class App < Sinatra::Base
   set :root, File.dirname(__FILE__)
-  register Sinatra::AdvancedRoutes
+  register Sinatra::Export
   register Sinatra::AssetPack
   register Sinatra::Reloader if development?
 
