@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sinatra-static-bp'
-  s.version     = '0.1.3'
+  s.version     = '0.1.4'
   s.executables << 'sinatra-static-bp'
   s.summary     = 'sinatra-static-bp'
   s.description = 'Boilerplate for simple static ruby applications. Amazon S3 deploy with complete assets management.'
